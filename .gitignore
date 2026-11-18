@@ -1,0 +1,47 @@
+# --- IDE and Editor files ---
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- C# / .NET Build Artifacts ---
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.msi
+*.zip
+*.log
+
+# --- Flutter / Dart Build Artifacts ---
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+/telepad/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.plugin_symlinks/
+
+# --- Android-specific outputs ---
+*.apk
+*.ap_
+*.aab
+
+# --- Local machine properties ---
+local.properties
+
+# --- Tooling, Agent Workspaces & Packaged Releases ---
+.agents/
+.impeccable/
+PRODUCT.md
+release/
+*.jks
+*.keystore
+.env
+.env.*
